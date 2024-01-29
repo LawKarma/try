@@ -1,17 +1,15 @@
 /* Controleur global */
-
 .navbar{
-    background-color: aqua;
-    width: 200px;
-    height: 45px;
-    border-radius: 25px;
+    background-color: #358597;
+    width: 230px;
+    height: 42px;
+    border-radius: 15px;
+    margin-left: auto;
 }
 /* la navBar */
 .navBody{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    align-items: right;
 }
 /* ses enfants */ 
 .navItems{

@@ -5,7 +5,6 @@ import { NavBar } from './views/Navbar';
 function App() {
   return (
     <div>
-      <h1>Mon main</h1>
       <header>
       <NavBar/>
       </header>

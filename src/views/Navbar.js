@@ -7,6 +7,7 @@ export function NavBar() {
       <nav className='navBody'>  
         <Link className='navItems' to='/'>Accueil</Link>
         <Link className='navItems' to='/about'>A propos</Link>
+        <Link className='navItems' to='/cards'>Panier</Link>
       </nav>
     </div>
 }
