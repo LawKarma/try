@@ -5,8 +5,8 @@ import './Navbar.css';
 export function NavBar() {
   return <div className="navbar">
       <nav className='navBody'>  
-        <Link className='nav-items' to='/'>Accueil</Link>
-        <Link className='Nav-items' to='/about'>A propos</Link>
+        <Link className='navItems' to='/'>Accueil</Link>
+        <Link className='navItems' to='/about'>A propos</Link>
       </nav>
     </div>
 }

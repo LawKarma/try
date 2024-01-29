@@ -1,23 +1,24 @@
-/* Navbar.css */
+/* Controleur global */
 
-.navbar {
-    background-color: #358597;
-    padding: 22px;
-    text-align: right;
+.navbar{
+    background-color: aqua;
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
 }
-
-.nav-item {
-    display: inline-block;
-    margin-right: 16px;
+/* la navBar */
+.navBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-
-.nav-item a {
+/* ses enfants */ 
+.navItems{
+    width: 75px;
+    height: 45px;
+    margin-top: 11px;
     text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
+    text-align: center;
 }
 
-.nav-item a:hover {
-    color: #F4A896;
-}
