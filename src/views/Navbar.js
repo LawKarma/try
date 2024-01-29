@@ -2,11 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-export function Navbar() {
+export function NavBar() {
   return <div className="navbar">
-      <nav className='nav-items'>  
+      <nav className='navBody'>  
         <Link className='nav-items' to='/'>Accueil</Link>
-       
       </nav>
     </div>
 }
