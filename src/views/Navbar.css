@@ -1,22 +1,31 @@
 /* Controleur global */
 .navbar{
     background-color: #358597;
-    width: 230px;
-    height: 42px;
-    border-radius: 15px;
+    width: 260px;
+    height: 40px;
     margin-left: auto;
+    position:relative;right: 20px;top: 20px ;
+    padding: 0px;
+    border-radius: 12px;
+    border: 2px solid rgb(0, 123, 255);
 }
 /* la navBar */
 .navBody{
     display: flex;
-    align-items: right;
+    align-items: center;
 }
 /* ses enfants */ 
 .navItems{
+    padding-left: 10px;
+    padding-right: 10px;
     width: 75px;
-    height: 45px;
-    margin-top: 11px;
-    text-decoration: none;
     text-align: center;
+    text-decoration: solid;
+    color: #f4a796;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
+.navItems:hover{
+    background-color: #1a64b8;
+    border-radius: 12px;
+}
