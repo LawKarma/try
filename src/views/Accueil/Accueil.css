@@ -2,13 +2,16 @@
     text-align: center;
 }
 .Text{
-    text-align: center;
+    text-align: left;
 }
 
 .AccueilTitle{
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
 }
 .AccueilText{
-    text-align: left;
     margin-top: 40px;
+    margin-left: 20px;
+    text-align: left
 }
+
