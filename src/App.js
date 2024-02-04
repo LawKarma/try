@@ -7,6 +7,7 @@ import { useLocation } from 'react-router-dom';
 import { Accueil } from './views/Accueil/Accueil';
 import { NavBar } from './views/Navbar';
 import { About } from './views/About/About';
+
 function App() {
   const location = useLocation();
     return (
@@ -24,6 +25,5 @@ function App() {
         </footer>
       </div>
     );
-  } // Add this closing curly brace
-
+  }
 export default App;
